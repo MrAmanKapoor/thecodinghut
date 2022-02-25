@@ -147,7 +147,7 @@ color:black;
 .course-col{
     
     flex-basis: 22%;
-   background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(Images/course-bg.jpg);
+   background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(Images/coursebg.jpg);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
