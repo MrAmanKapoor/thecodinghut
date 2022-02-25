@@ -236,7 +236,7 @@ h3{
     text-align: center;
     padding-top: 80px;
     box-sizing: border-box;
-    background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(images/aboutbg.jpg);
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(Images/aboutbg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
