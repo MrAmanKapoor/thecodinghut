@@ -9,7 +9,7 @@ html {
 
 .header{
     min-height: 100vh;
-    background-image:url(Images/headerbg.jpg);
+    
     width: 100%;
     background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(Images/headerbg.jpg);
     background-position: center;
