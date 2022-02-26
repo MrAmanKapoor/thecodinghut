@@ -151,7 +151,7 @@ color:black;
 .course-col{
     
     flex-basis: 23%;
-    background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(images/course-bg.jpg);
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(Images/course-bg.jpg);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -240,7 +240,7 @@ color:black;
     text-align: center;
     padding-top: 80px;
     box-sizing: border-box;
-    background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(images/about-bg.jpg);
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(Images/about-bg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
