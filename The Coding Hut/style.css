@@ -291,6 +291,12 @@ h3{
 }
 
 
+@media(max-width:767px)
+{
+    .Testimonials h1{
+        margin-top: 5%;
+        }
+}
 /*---Contact US-----*/
 
 
