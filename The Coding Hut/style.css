@@ -244,12 +244,14 @@ color:black;
     background-position: center;
     background-size: cover;
     position: relative;
-     clip-path: polygon(0 0, 0 86%, 100% 100%, 100% 0);
+    clip-path: polygon(0 0, 100% 22%, 100% 100%, 0% 100%);
+
 
 
 }
 .Testimonials h1{
 font-size: 45px;
+    margin-top:4%;
 font-weight: 600;
 text-decoration: underline;
 color: white
