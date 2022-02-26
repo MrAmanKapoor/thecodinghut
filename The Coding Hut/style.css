@@ -127,10 +127,16 @@ nav button{display: none;}
 
 .course
 {
-    width: 100%;
+   width: 100%;
     margin: auto;
+    height: 50%;
     text-align: center;
     padding-top: 80px;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(images/course-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 .course h1{
 font-size: 45px;
