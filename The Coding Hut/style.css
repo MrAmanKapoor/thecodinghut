@@ -177,9 +177,6 @@ color:black;
     .row{
         flex-direction: column;
     }
-    .course-col h3{
-        font-size: 10px;
-    }
 }
 
 .team{
