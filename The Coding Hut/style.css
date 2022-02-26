@@ -173,6 +173,9 @@ h3{
     .row{
         flex-direction: column;
     }
+     .course-col h3 p{
+        font-size: 10px;
+    }
 }
 
 .team{
