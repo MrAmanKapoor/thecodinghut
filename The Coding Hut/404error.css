@@ -103,6 +103,13 @@ img{
 }
 
 
+@media(max-width:700px)
+{
+    img{
+        display: none;
+    }
+   p{text-align: center;}
+}
 
 
 
