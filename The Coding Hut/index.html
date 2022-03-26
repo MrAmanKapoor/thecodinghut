@@ -8,8 +8,16 @@
     <title>Home- The Coding Hut</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,600;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,600;1,900&display=swap"
+        rel="stylesheet">
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Poppins:ital,wght@0,600;0,700;1,600;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -19,16 +27,16 @@
             <div class="nav-links" id="navlinks">
                 <button class="close_menu" onclick="closemenu()">X</button>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Course</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Our Team</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="allcourses.html">Course</a></li>
+                    <li><a href="404error.html">Blog</a></li>
+                    <li><a href="#team">Our Team</a></li>
                     <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
 
             </div>
-            <button class="open-menu" onclick="openemenu()">≡</button>
+            <butt on class="open-menu" onclick="openemenu()">≡</button>
         </nav>
 
         <div class="text-box">
@@ -36,33 +44,38 @@
             <p>The way to master code is starting it now. Get started with our website<br>
                 and learn <span>WEb Development</span> from scratch.</p>
 
+
         </div>
 
     </section>
     <!-------Course Segment Start Now-------->
-    <section class="course">
+    <section class="course" id="course">
         <h1>Courses We Offer</h1>
 
         <div class="row">
             <div class="course-col">
                 <h3>Web Development</h3>
                 <p>We provide web development
-                    here from begining. students can visit our site and can learn the web development.</p>
+                    here from begining. students can visit our site and can learn the web development.</p><br>
+                    <a href="roadmap.html">See Roadmap</a>
             </div>
             <div class="course-col">
                 <h3>HTML</h3>
                 <p>In web development we provides languages such as html which are basic for any web developing process.
-                </p>
+                </p><br>
+                <a href="htmlcourse.html">Start Learning</a>
             </div>
             <div class="course-col">
                 <h3>CSS</h3>
                 <p>After learning the HTML students can move further for designing process and can learn the CSS
-                    language.</p>
+                    language.</p><br>
+                <a href="csscourse.html">Start Learning</a>
             </div>
             <div class="course-col">
                 <h3>JavaScripts</h3>
                 <p>In web development Java Script provides a better functionality and can make the website responsive
-                    and interactive.</p>
+                    and interactive.</p><br>
+                <a href="JS.html">Start Learning</a>
             </div>
         </div>
     </section>
@@ -71,7 +84,7 @@
     <!-------Our Team Segment Start------->
 
 
-    <section class="team">
+    <section class="team" id="team">
         <h1>Founder Says</h1>
         <div class="">
             <div class="founder">
@@ -90,66 +103,68 @@
         </div>
     </section>
 
- <!--------Testimonials Us Segment-------->
- <section class="Testimonials">
-    <h1>Testimonials</h1>
-    <p>Join us now and make your career in web development.</p>
+    <!--------Testimonials Us Segment-------->
+    <section class="Testimonials" id="About">
+        <h1>Testimonials</h1>
+        <p>Join us now and make your career in web development.</p>
 
-    <div class="row">
-        <div class="Testimonials-col">
-            <p>"Make your dreams come true here on TNC. Very popular among students who are willing to coding."</p>
-            <h3>Avantika. <span>Manager at TCH</span></h3>
-        </div>
-        <div class="Testimonials-col">
-            
-            <p>"A perfect place for knowledge gaining experience, the journey begins from here. Join TNC now"
-            </p>
-            <h3>Ashish Sethi. <span>Co-Founder at TCH</span></h3>
-        </div>
-        <div class="Testimonials-col">
-            <p>"Key to web development is to start today by learning the basic of it and do more practice as possible."</p>
-            <h3>Shubhi Kapoor. <span>CEO at TCH</span></h3>
-        </div>
-        
-    </div>
-</section>
+        <div class="row">
+            <div class="Testimonials-col">
+                <p>"Make your dreams come true here on TCH. Very popular among students who are willing to coding."</p>
+                <h3>Avantika. <span>Manager at TCH</span></h3>
+            </div>
+            <div class="Testimonials-col">
 
-<!------------Contact Us Segment-------->
-
-<section class="contact">
-    <h1>Contact Us</h1>
-    <div class="row">
-        
-        <div class="contact-col"><br>
-            
-            <a href="index.html"><img src="Images/logo.png" width="250px"></a><br>
-            
-<p>The way to master code is starting it now.<br>
-
-    Get started with our website<br>
-    and learn <span>Web Development</span> from scratch.</p>
+                <p>"A perfect place for knowledge gaining experience, the journey begins from here. Join TCH now"
+                </p>
+                <h3>Ashish Sethi. <span>Co-Founder at TCH</span></h3>
+            </div>
+            <div class="Testimonials-col">
+                <p>"Key to web development is to start today by learning the basic of it and do more practice as
+                    possible."</p>
+                <h3>Shubhi Sethi. <span>CEO at TCH</span></h3>
+            </div>
 
         </div>
-        <div class="contact-col">
-            <h3>Office Address</h3>
-            <p><span>The Coding Hut</span>,<br>
-               Address:-  #15, 3rd floor, New Samalkha,<br>
-                Airport, New Delhi,<br>
-                Delhi - 110037.<br>
-               Email example@thecodinghut.com<br>
-              Mobile:-  +91 00000 00000<br>
-             Site:-  www.thecodinghut.com </p>
-            
+    </section>
+
+    <!------------Contact Us Segment-------->
+
+    <section class="contact" id="contact">
+        <h1>Contact Us</h1>
+        <div class="row">
+
+            <div class="contact-col"><br>
+
+                <a href="index.html"><img src="Images/logo.png" width="250px"></a><br>
+
+                <p>The way to master code is starting it now.<br>
+
+                    Get started with our website<br>
+                    and learn <span>Web Development</span> from scratch.</p>
+
+            </div>
+            <div class="contact-col">
+                <h3>Office Address</h3>
+                <p><span>The Coding Hut</span>,<br>
+                    Address:- #15, 3rd floor, New Samalkha,<br>
+                    Airport, New Delhi,<br>
+                    Delhi - 110037.<br>
+                    Email example@thecodinghut.com<br>
+                    Mobile:- +91 00000 00000<br>
+                    Site:- www.thecodinghut.com </p>
+
+            </div>
+
         </div>
-        
-    </div>
-</section>
+    </section>
 
-<footer>
+    <!------Footer Segment------>
+    <footer>
 
-    <h2>Copyright © 2021, All rights reserved</h2>
-    <h5>--This Website is Under Build--</h5>
-</footer>
+        <h2>Copyright © 2021-2022, All rights reserved</h2>
+        <h5>--This Website is Under Build--</h5>
+    </footer>
 
 
 
