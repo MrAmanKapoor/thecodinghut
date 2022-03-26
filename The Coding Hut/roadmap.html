@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmap</title>
+    <link rel="stylesheet" href="roadmap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,600;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Poppins:ital,wght@0,600;0,700;1,600;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <button class="close_menu" onclick="closemenu()">X</button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="allcourses.html">Course</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+            </div>
+            <butt on class="open-menu" onclick="openemenu()">≡</button>
+        </nav>
+
+
+    </section>
+    
+    <section class="Roadmap" id="course">
+        <h1>Web Development Roadmap</h1>
+        <p>Web development is the process of building websites and applications for the internet,or for a
+            private network known as an intranet.</p>
+
+        <p>Web development is not concerned with the design of a website; rather, it’s all about the coding and
+            programming that powers the website’s functionality.</p>
+           <p>Web development can be broken down into three layers: client-side coding (frontend), server-side coding
+            (backend) and database technology.</p>
+        <div class="row">
+
+            <div class="roadmap-col">
+                <h3>Front-End Developer</h3>
+                <p>Code the frontend of a website; i.e. the part with which the user interacts and sees.</p>
+
+            </div>
+            <div class="roadmap-col">
+                <h3>Back-End Developer</h3>
+                <p>Work behind the scenes, building and maintaining the technology needed to power the frontend</p>
+
+            </div>
+            <div class="roadmap-col">
+                <h3>Full Stack Developer</h3>
+                <p>Experts in both frontend and backend technology.
+
+                    Guide on strategy and best practices.</p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--------Learn the Basics Segment----->
+    <section class="basic" id="About">
+        <h1>Learn the Basics</h1><br>
+        <p>Every Web developer must have the good knowledge about HTML, CSS , and Javascript. After having a great
+            knowledge one can<br> dive deeper into the world of development. </p><p>You can do exact here on TCH and can move
+            further.</p>
+
+        <div class="row">
+          <div class="basic-col">
+            <img src="Images/roadmap.png">
+          </div>
+            
+
+        </div>
+    </section>
+
+    <!------------Contact Us Segment-------->
+
+    <section class="contact" id="contact">
+        <h1>Contact Us</h1>
+        <div class="row">
+
+            <div class="contact-col"><br>
+
+                <a href="index.html"><img src="Images/logo.png" width="250px"></a><br>
+
+                <p>The way to master code is starting it now.<br>
+
+                    Get started with our website<br>
+                    and learn <span>Web Development</span> from scratch.</p>
+
+            </div>
+            <div class="contact-col">
+                <h3>Office Address</h3>
+                <p><span>The Coding Hut</span>,<br>
+                    Address:- #15, 3rd floor, New Samalkha,<br>
+                    Airport, New Delhi,<br>
+                    Delhi - 110037.<br>
+                    Email example@thecodinghut.com<br>
+                    Mobile:- +91 00000 00000<br>
+                    Site:- www.thecodinghut.com </p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!------Footer Segment------>
+    <footer>
+        <h2>Copyright © 2021-2022, All rights reserved</h2>
+        <p>--This Website is Under Build--</p>
+    </footer>
+
+
+
+
+
+
+
+    <!--------Javascripts For toggle menu-------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function openemenu() {
+            navlinks.style.right = "0";
+        }
+        function closemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  nav{
+    display: flex;
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(20, 42, 104);
+    
+}
+nav img{
+    width: 200px;
+    
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+   
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: red;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+    
+    width: 100%;    
+}
+
+.container
+{   
+    width:100vw;
+    height: 100vh;
+    
+}
+
+aside
+{   
+    height:100%;
+    width:15vw;
+    background-color:rgb(252, 252, 252);
+    float:left;
+    padding:3%;
+    padding-left: 2%;
+    
+    
+}
+aside ul li
+{
+    list-style: none;
+    padding: 5px 8px;
+    position: relative;
+  
+}
+aside ul li a
+{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    transition: 0.5s;
+}
+aside ul li a:hover
+{
+    color:rgb(20, 145, 16);
+    text-shadow: 2px 2px 8px rgb(15, 15, 15);
+    font-size: 17px;
+
+}
+aside h3
+{
+    color: Red;
+    text-decoration: underline;
+    margin-top: 20%;
+    font-size: 20px;
+}
+
+/*----content segment---*/
+
+.content
+{   
+    height: auto;
+    width:73vw;
+    float:left;
+    padding: 5% 20px;
+    background-color:white;
+    border-left: 0.02px solid rgb(161, 150, 150);
+    
+}
+.content h1
+{   text-align: center;
+    font-size: 30px;
+    color: blue;
+    text-shadow: 2px 2px 8px rgb(15, 15, 15);
+    text-decoration: underline;
+    transition: 1s;
+
+}
+.content p
+{   text-align: justify;
+    margin: 5% 5%;
+    color: rgb(54, 52, 52);
+}
+.content ul li
+{
+    margin-left:8%;
+    font-size: 12px;
+    text-align: justify;
+}
+.content h1:hover{ text-shadow: 2px 2px 8px rgb(23, 197, 139);}
+
+.poster
+{
+    width: 73vw;
+    height: 50vh;
+
+}
+span
+
+{color: green;}
+
+#Getstarted img
+{
+    width: 50vw;
+    height: 30vh;
+    margin-left: 5%;
+
+}
+
+@media(max-width:700px)
+
+{
+    aside
+    {
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        border-bottom: 0.02px solid rgb(161, 150, 150);
+       
+    }
+    .row
+    {
+        flex: 1;
+        text-align: left;
+        
+    }
+    
+    .row ul li{
+        list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+    .row ul li a {
+        font-size: 10px;
+        text-decoration: none;
+    }
+    .content{ width: 95%;}
+ 
+    .poster
+    {
+        width: 85vw;
+        height: auto;
+    }
+
+}

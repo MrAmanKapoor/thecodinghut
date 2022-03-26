@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Course</title>
+    <link rel="stylesheet" href="course.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,600;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html"><img src="Images/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+    </nav>
+
+    <section class="container">
+        <div class="row">
+            <aside>
+                <h3>CSS Basic</h3>
+                <ul>
+                    <li><a href="#intro">CSS Introduction</a></li>
+                    <li><a href="#Getstarted">CSS Get Started</a></li>
+                    <li><a href="#Elements">CSS Syntax</a></li>
+                    <li><a href="#CSS Selectors">CSS Selectors</a></li>
+                    <li><a href="#CSS Color">CSS Color</a></li>
+                    <li><a href="#Paragraphs">CSS Background</a></li>
+                    <li><a href="#">CSS FOnts</a></li>
+                    <li><a href="#">CSS Text</a></li>
+                    <li><a href="#">CSS Links</a></li>
+                    <li><a href="#team">CSS Lists</a></li>
+                    <li><a href="">CSS Tables</a></li>
+                </ul>
+
+                <h3>CSS Box Model</h3>
+                <ul>
+                    <li><a href="#contact">CSS Box Model</a></li>
+                    <li><a href="#">CSS Margin</a></li>
+                    <li><a href="#">CSS Padding</a></li>
+                    <li><a href="#">CSS Borders</a></li>
+                </ul>
+                <h3>CSS Advance</h3>
+                <ul>
+                    <li><a href="#contact">CSS Overflow</a></li>
+                    <li><a href="#">CSS Animation</a></li>
+                    <li><a href="#">CSS Gradient</a></li>
+                    <li><a href="#">CSS Shadows</a></li>
+                </ul>
+                
+            </aside>
+        </div>
+        <div class="content">
+            <article id="intro">
+                <h1>CSS Introduction</h1>
+
+                <p>CSS is the key presentational technology that is used in website design. </p>
+                <img class="poster" src="Images/css.png">
+
+                <p>CSS stands for Cascading Style Sheets. CSS is a standard style sheet language used for describing the
+                    presentation (i.e. the layout and formatting) of the web pages.</p>
+
+                <p> Prior to CSS, nearly all of the presentational attributes of HTML documents were contained within
+                    the HTML markup (specifically inside the HTML tags); all the font colors, background styles, element
+                    alignments, borders and sizes had to be explicitly described within the HTML.
+                <details>
+                    <summary>Read more</summary>
+                    </p>
+
+
+                    <p> As a result, development of the large websites became a long and expensive process, since the
+                        style information were repeatedly added to every single page of the website.<br>
+                    </p>
+
+                    <p>To solve this problem CSS was introduced in 1996 by the World Wide Web Consortium (W3C), which
+                        also maintains its standard. CSS was designed to enable the separation of presentation and
+                        content. Now web designers can move the formatting information of the web pages to a separate
+                        style sheet which results in considerably simpler HTML markup, and better maintainability.</p>
+
+                    <p>CSS3 is the latest version of the CSS specification. CSS3 adds several new styling features and
+                        improvements to enhance the web presentation capabilities. </p>
+                </details>
+            </article>
+            <hr>
+            <article id="Getstarted">
+
+                <h1>CSS Getting started</h1>
+                <p>CSS is the key presentational technology that is used in website design.</p>
+                <h3>Getting started With CSS</h3>
+                <p>In this tutorial you'll learn how easy it is to add style and formatting information to the web pages
+                    using CSS. But, before we begin, make sure that you have some working knowledge of HTML.</p>
+                <h2>Including CSS in HTML Documents.</h2>
+                <p>CSS can either be attached as a separate document or embedded in the HTML document itself. There are
+                    three methods of including CSS in an HTML document:
+                </p>
+
+                <details>
+                    <summary>Read more</summary>
+
+                    <br>
+                    <ul>
+                        <li>Inline styles — Using the style attribute in the HTML start tag.</li>
+                        <li>Embedded styles — Using the "\003C"; style > element in the head section of a document.</li>
+
+                    </ul>
+                </details>
+                <hr>
+            </article>
+            <article id="Attributes">
+
+                <h1>CSS Syntax</h1>
+                <p><span>CSS is the key presentational technology that is used in website design.</span>
+                </p>
+                <h3>Getting started With CSS Syntax</h3>
+                <p>A CSS stylesheet consists of a set of rules that are interpreted by the web browser and then applied
+                    to the corresponding elements such as paragraphs, headings, etc. in the document.</p>
+                <p>A CSS rule have two main parts, a selector and one or more declarations:<br></p>
+
+                <img class="poster" src="Images/css-syntax.png">
+
+
+
+                <p>The selector specifies which element or elements in the HTML page the CSS rule applies to.</p>
+                <p>Whereas, the declarations within the block determines how the elements are formatted on a webpage.
+                    Each declaration consists of a property and a value separated by a colon (:) and ending with a
+                    semicolon (;), and the declaration groups are surrounded by curly braces {}.</p>
+                <hr>
+                <article id="CSS Selectors">
+                    <h1>CSS Selectors</h1>
+                    <p><span>CSS is the key presentational technology that is used in website design.</span></p>
+                    <h3>What is Selector?</h3>
+                    <p>A CSS selector is a pattern to match the elements on a web page. The style rules associated with
+                        that selector will be applied to the elements that match the selector pattern.
+                    </p>
+                    <p>Selectors are one of the most important aspects of CSS as they allow you to target specific
+                        elements on your web page in various ways so that they can be styled.</p>
+                    <h5>Several types of selectors are available in CSS, let's take a closer look at them:</h5><br>
+                    <h3>Universal Selector</h3>
+                    <p>The universal selector, denoted by an asterisk (*), matches every single element on the page.</p>
+                    <p>The universal selector may be omitted if other conditions exist on the element. This selector is
+                        often used to remove the default margins and paddings from the elements for quick testing
+                        purpose.</p>
+
+                    <p>
+                        Let's try out the following example to understand how it basically works:<br>
+                        <br>
+                        <span> * {<br>
+                            margin: 0;<br>
+                            padding: 0;<br>
+                            }</span>
+                    </p>
+                    <p>The style rules inside the * selector will be applied to every element in a document.</p>
+
+                    <details>
+                        <summary>Read more</summary><br>
+                        <h3>Element Selectors</h3>
+                        <p>An element type selector matches all instance of the element in the document with the
+                            corresponding element type name. Let's try out an example to see how it actually works:
+
+                            <br> <span> P{<br>
+                                Color: blue;<br>
+                                }</span>
+
+                        </p>
+                        <p>The style rules inside the p selector will be applied on every <span>
+                                < p>
+                            </span>element (or paragraph) in the document and color it blue, regardless of their
+                            position in the document tree.</p><br>
+                        <h3>Id Selectors</h3>
+
+                        <p>The id selector is used to define style rules for a single or unique element.</p>
+                        <p>The id selector is defined with a hash sign (#) immediately followed by the id value.
+
+                            <span><br><br>
+
+                                #try {<br>
+                                color: blue;<br>
+                                }
+                            </span>
+                        </p>
+                        <p>This style rule renders the text of an element in blue, whose id attribute is set to try.</p>
+
+                        <h3>Class Selectors</h3>
+                        <p>The class selectors can be used to select any HTML element that has a class attribute. All
+                            the elements having that class will be formatted according to the defined rule.</p>
+
+                        <p>The class selector is defined with a period sign (.) immediately followed by the class value.
+
+                            <span><br><br>
+
+                                .hello {<br>
+                                color: blue;<br>
+                                }
+                            </span>
+                        </p>
+                        <p>The above style rules renders the text in blue of every element in the document that has
+                            class attribute set to hello. You can make it a bit more particular. For example:
+                            <span><br><br>
+
+                                p.hello {<br>
+                                color: blue;<br>
+                                }
+                            </span>
+
+                        </p>
+                        <p>The style rule inside the selector p.hello renders the text in blue of only those <span>
+                                < p>
+                            </span> elements that has class attribute set to hello, and has no effect on other
+                            paragraphs.</p>
+                    </details>
+                    <hr>
+                </article>
+                <article id="CSS Color">
+
+                    <h1>CSS Color</h1>
+                    <p><span>CSS is the key presentational technology that is used in website design.</span></p>
+                    <h3>Color Property</h3>
+                    <p>The color property defines the text color (foreground color in general) of an element.</p>
+                    <p>For instance, the color property specified in the body selector defines the default text color
+                        for the whole page. Let's try out the following example to see how it works:
+                        <span><br><br>
+
+                            body {<br>
+                            color: blue;<br>
+                            }
+                        </span>
+                    </p>
+                    <details>
+                        <summary>Read more</summary><br>
+                        <h3>Color Keywords</h3>
+                        <p>CSS defines the few color keywords which lets you specify color values in an easy way.</p>
+                        <p>These basic color keywords are: aqua, black, blue, fuchsia, gray, green, lime, maroon, navy,
+                            olive, purple, red, silver, teal, white, and yellow. The color names are case-insensitive.
+                            <br><span><br><br>
+
+                                h1{<br>
+                                color: blue;<br>
+                                }
+                            </span>
+                            <br>
+
+                            <span><br><br>
+
+                                p {<br>
+                                color: blue;<br>
+                                }
+                            </span>
+                        </p>
+                        <p>Modern web browsers however practically support many more color names than what are defined
+                            in
+                            the CSS standard, but to be on the safer side you should use hex color values instead.
+                        </p>
+                        <h3>HEX Color Values</h3>
+                        <p>Hex (short for Hexadecimal) is by far the most commonly used method of defining color on the
+                            web.</p>
+                        <p>Hex represent colors using a six-digit code, preceded by a hash character, like #rrggbb, in
+                            which rr, gg, and bb represents the red, green and blue component of the color respectively
+                        </p>
+                        <p>The value of each component can vary from 00 (no color) and FF (full color) in hexadecimal
+                            notation, or 0 and 255 in decimal equivalent notation. Thus #ffffff represents white color
+                            and #000000 represents black color. Let's take a look the following example:
+                            <br><span><br><br>
+
+                                h1{<br>
+                                color: #00ff00;<br>
+                                }
+                            </span></p>
+                        <h3>RGB Color Values</h3>
+                        <p>Colors can be defined in the RGB model (Red, Green, and Blue) using the rgb() functional notation.</p>
+                        <p>The following example specifies the same color as in the previous example but in RGB notation.
+                            <br><span><br><br>
+
+                                h1{<br>
+                                color: rgb(255, 165, 0);<br>
+                                }
+                            </span></p>
+
+                    </details>
+                    <hr>
+                </article>
+        </div>
+
+    </section>
+
+
+
+</body>
+
+</html>

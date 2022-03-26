@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Courses</title>
+    <link rel="stylesheet" href="allcourses.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,600;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Poppins:ital,wght@0,600;0,700;1,600;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <button class="close_menu" onclick="closemenu()">X</button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#course">Course</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+            </div>
+            <butt on class="open-menu" onclick="openemenu()">≡</button>
+        </nav>
+
+
+    </section>
+
+    <section class="Roadmap" id="course">
+        <h1>All Courses We Offer</h1>
+        <p> <span>The Coding Hut </span> believes in helping you add value to yourself at the end of each day.</p>
+        <p>A place to Network, hack your Motivation & make you a part of like minded tech learning groups for
+            constant growth of YOU!</p>
+        <br>
+        <p> <span>Work Hard, Start Learning to get your DREAM JOB! </span></p>
+        <div class="row">
+
+            <div class="roadmap-col">
+                <h2>HTML Essentials Zero to Hero Program <br>(FREE)</h2><br>
+                <a href="htmlcourse.html">Start Learning</a><br>
+                <p>Code the frontend of a website; i.e. the part with which the user interacts and sees.</p>
+
+            </div>
+            <div class="roadmap-col">
+                <h2>CSS Essentials Zero to Hero Program <br>(FREE)</h2><br>
+                <a href="htmlcourse.html">Start Learning</a><br>
+                <p>Code the frontend of a website; i.e. the part with which the user interacts and sees.</p>
+            </div>
+            <div class="roadmap-col">
+                <h2>JavaScript Essentials Zero to Hero Program<br> (FREE)</h2><br>
+                <a href="htmlcourse.html">Start Learning</a><br>
+                <p>If there's one thing that never gets old, it's rock-solid JavaScript fundamentals. </p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="roadmap-col">
+                <h2>Python Essentials Zero to Hero Program <br>(FREE)</h2><br>
+                <a href="htmlcourse.html">Start Learning</a><br>
+                <p>Code the frontend of a website; i.e. the part with which the user interacts and sees.</p>
+
+            </div>
+            <div class="roadmap-col">
+                <h2>Jquery Essentials Zero to Hero Program <br>(FREE)</h2><br>
+                <a href="htmlcourse.html">Start Learning</a><br>
+                <p>Code the frontend of a website; i.e. the part with which the user interacts and sees.</p>
+            </div>
+            <div class="roadmap-col">
+                <h2>ReactJs Zero to Hero Program<br> (FREE)</h2><br>
+                <a href="htmlcourse.html">Start Learning</a><br>
+                <p>If there's one thing that never gets old, it's rock-solid JavaScript fundamentals. </p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="roadmap-col">
+                <h2>FullStack Web Development Program <br>(PGP FS)</h2><br>
+                <a href="htmlcourse.html">Enroll Now</a><br>
+                <p>Be the next top notch Full Stack Web Developer by building web projects using HTML, CSS, JS, Node,
+                    Express, MongoDB, React.js, NEXT.js and Vue.js. </p>
+                
+
+            </div>
+            <div class="roadmap-col">
+                <h2>FullStack Python & Django Program <br>(PGP FS)</h2><br>
+                <a href="htmlcourse.html">Enroll Now</a><br>
+                <p>Python is powerful and fast, plays well with others, runs everywhere, is friendly & easy to learn.
+                </p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <!------------Contact Us Segment-------->
+
+    <section class="contact" id="contact">
+        <h1>Contact Us</h1>
+        <div class="row">
+
+            <div class="contact-col"><br>
+
+                <a href="index.html"><img src="Images/logo.png" width="250px"></a><br>
+
+                <p>The way to master code is starting it now.<br>
+
+                    Get started with our website<br>
+                    and learn <span>Web Development</span> from scratch.</p>
+
+            </div>
+            <div class="contact-col">
+                <h3>Office Address</h3>
+                <p><span>The Coding Hut</span>,<br>
+                    Address:- #15, 3rd floor, New Samalkha,<br>
+                    Airport, New Delhi,<br>
+                    Delhi - 110037.<br>
+                    Email example@thecodinghut.com<br>
+                    Mobile:- +91 00000 00000<br>
+                    Site:- www.thecodinghut.com </p>
+
+            </div>
+
+        </div>
+        <hr>
+       
+           
+      
+
+    </section>
+    <p class="footer">Copyright © 2021-2022, All rights reserved<br>
+        --This Website is Under Build--</p>
+
+
+
+
+    <!--------Javascripts For toggle menu-------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function openemenu() {
+            navlinks.style.right = "0";
+        }
+        function closemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
