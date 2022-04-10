@@ -191,6 +191,10 @@ font-stretch: semi-expanded;
     .row{
         flex-direction: column;
     }
+    .contact
+    {
+    padding-top:23%;
+    }
 }
 
 
